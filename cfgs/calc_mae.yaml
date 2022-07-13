@@ -1,0 +1,13 @@
+filename: mae_SPADE_SR_64
+
+IMG_SHAPE_X: 64
+IMG_SHAPE_Y: 40
+THERMAL_PATH: lrt-human/thermal
+RGB_PATH: lrt-human/rgb
+
+BATCH_SIZE: 128
+
+GENERATOR: experiments/SPADE_SR_64/weight/G_400_8.17.h5
+ENCODER: experiments/inv_SPADE_SR_64/weight/E_10.h5
+
+RUNS: 5

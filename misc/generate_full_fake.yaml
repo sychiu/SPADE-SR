@@ -1,0 +1,8 @@
+filename: ff_SPADE_SR_64
+
+IMG_SHAPE_X: 64
+IMG_SHAPE_Y: 40
+THERMAL_PATH: lrt_human/thermal
+RGB_PATH: lrt_human/rgb
+GENERATOR: experiments/SPADE_SR_64/weight/G_400_8.32.h5
+ENCODER: experiments/inv_SPADE_SR_64/weight/E_10.h5

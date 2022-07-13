@@ -1,0 +1,13 @@
+h5py==2.9.0
+imageio==2.6.1
+matplotlib==3.0.3
+natsort==8.1.0
+numpy==1.19.5
+opencv_python==4.1.2.30
+Pillow==6.2.1
+pyserial==3.5
+PyYAML==5.1.2
+scikit_learn==0.20.3
+scipy==1.2.1
+tensorflow_gpu==1.15.0
+urllib3==1.25.7

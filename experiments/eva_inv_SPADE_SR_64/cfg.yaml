@@ -1,0 +1,10 @@
+filename: eva_inv_SPADE_SR_64
+IMG_SHAPE_X: 64
+IMG_SHAPE_Y: 40
+THERMAL_PATH: lrt-human/thermal.npy
+RGB_PATH: lrt-human/rgb.npy
+GENERATOR: experiments/SPADE_SR_64/weight/G_400_8.17.h5
+ENCODER: experiments/inv_SPADE_SR_64/weight/E_10.h5
+RUNS: 5
+SOURCE_NUMS: 10
+TARGET_NUMS: 10

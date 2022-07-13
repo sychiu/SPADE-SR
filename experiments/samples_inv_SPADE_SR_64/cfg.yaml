@@ -1,0 +1,13 @@
+filename: samples_inv_SPADE_SR_64
+IMG_SHAPE_X: 64
+IMG_SHAPE_Y: 40
+THERMAL_PATH: lrt-human/thermal.npy
+RGB_PATH: lrt-human/rgb.npy
+GENERATOR: experiments/SPADE_SR_64/weight/G_400_8.17.h5
+RUNS: 5
+ROW_NUMS: 5
+COL_NUMS: 3
+RGB_X: 320
+RGB_Y: 200
+THM_X: 96
+THM_Y: 60
