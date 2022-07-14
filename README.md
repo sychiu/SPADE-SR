@@ -32,6 +32,8 @@ The following code would train a standard SPADE-SR model:
 
     python train.py cfgs/SPADE_SR_64.yaml
     
+You could fill in .h5 weight files to the model fields in the config file to continue a training as well.
+
 If you want to calculate the FID score on the fly whenever the model is saved, in the config file, set `CALC_FID: true` and `REAL_STATS_PATH` to your `.npz` feature statistics file. To prepare the pre-calculated feature statistics for your dataset's real images, edit and run the code `precalc_stats_example.py`. Please be careful when processing the image data using OpenCV (cv2), which reads and writes an image in the BGR channel order. *The LRT-Human dataset's `.npy` array file is in BGR channel order,* to reverse the order, simply index `[:,:,:,::-1]`, which reverses the order at the channel axis.
 
 ## Inversion
