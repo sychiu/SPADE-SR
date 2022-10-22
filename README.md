@@ -1,5 +1,5 @@
 # SPADE-SR and LRT-Human Dataset
-![SPADE-SR](imgs/SPADE_SR_NEW.pdf)
+![SPADE-SR](imgs/SPADE_SR_NEW.png)
 This repository contains the code and data for the proposed SPADE-SR (Spatial Adaptive DEnormalization with Self-Sampling) model and LRT-Human (Low-Resolution Thermal Human) dataset for semantic image synthesis using low-resolution thermal heatmaps from a thermopile array sensor.
 
 ## Dataset
